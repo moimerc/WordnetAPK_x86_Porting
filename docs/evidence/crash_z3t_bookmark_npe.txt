@@ -1,0 +1,341 @@
+--------- beginning of main
+09-17 17:25:01.465  3626  3850 E GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: IllegalStateException getting Advertising Id Info
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: java.lang.IllegalStateException: The meta-data tag in your app's AndroidManifest.xml does not have the right value.  Expected 8487000 but found 7571000.  You must have the following declaration within the <application> element:     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.common.zze.zzan(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.common.zze.isGooglePlayServicesAvailable(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.common.zzc.isGooglePlayServicesAvailable(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzp(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.tagmanager.zza$1.zzFV(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.tagmanager.zza.zzFU(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.tagmanager.zza.zzb(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at com.google.android.gms.tagmanager.zza$2.run(Unknown Source)
+09-17 17:25:01.467  3626  3850 W GoogleTagManager: 	at java.lang.Thread.run(Thread.java:818)
+09-17 17:25:02.276 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:02.277 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+--------- beginning of system
+09-17 17:25:02.328  1344  3484 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b2ec5b attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:02.329 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:02.329 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:02.330 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:04.271 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:04.271 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:04.343  1344  4142 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@7871836 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:04.345 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:04.346 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:04.346 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:06.055   789  1414 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+09-17 17:25:06.056   789  1414 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+09-17 17:25:06.521 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:06.521 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:06.570  1344  3199 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@1adee0d attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:06.573 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:06.575 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:06.575 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:07.480  1344  3166 D WifiStateMachine: starting scan for "DIRECT-27-LM-G850-PdaNet"-WPA_PSK with 5745
+09-17 17:25:07.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c754cb', mHESSID=0, mBSSID=a4cfd2c754cf, mStationCount=3, mChannelUtilization=66, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c754d2, mStationCount=0, mChannelUtilization=66, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1bf3f', mHESSID=0, mBSSID=a4cfd2c1bf43, mStationCount=2, mChannelUtilization=71, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='StudioK', mHESSID=0, mBSSID=a4cfd2c670c3, mStationCount=4, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c670ce, mStationCount=0, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.770  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c754cb', mHESSID=0, mBSSID=a4cfd2c754ce, mStationCount=0, mChannelUtilization=176, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.770  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1bf3f', mHESSID=0, mBSSID=a4cfd2c1bf42, mStationCount=0, mChannelUtilization=160, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.771  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='StudioK', mHESSID=0, mBSSID=a4cfd2c670c2, mStationCount=0, mChannelUtilization=146, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.772  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 21948f', mHESSID=0, mBSSID=5c53c3219492, mStationCount=0, mChannelUtilization=182, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.772  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e5e7', mHESSID=0, mBSSID=a0ed6dc1e5eb, mStationCount=1, mChannelUtilization=79, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.773  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e50f', mHESSID=0, mBSSID=a0ed6dc1e513, mStationCount=1, mChannelUtilization=70, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.773  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a2ed6dc1e51e, mStationCount=0, mChannelUtilization=70, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.774  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='Venom', mHESSID=0, mBSSID=a4cfd241fc09, mStationCount=4, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.775  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice dd5f87', mHESSID=0, mBSSID=a4cfd2dd5f8a, mStationCount=0, mChannelUtilization=148, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.776  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=5e53c321949e, mStationCount=0, mChannelUtilization=54, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.776  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 21948f', mHESSID=0, mBSSID=5c53c3219493, mStationCount=0, mChannelUtilization=50, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.777  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum a679a1', mHESSID=0, mBSSID=944e5ba679a4, mStationCount=0, mChannelUtilization=203, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.777  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='3HWIFI', mHESSID=0, mBSSID=a4cfd2b5d7be, mStationCount=0, mChannelUtilization=155, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.777  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c1bf4e, mStationCount=0, mChannelUtilization=71, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.778  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a2ed6dc1e5f6, mStationCount=0, mChannelUtilization=79, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.778  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice dd5f87', mHESSID=0, mBSSID=a4cfd2dd5f8b, mStationCount=3, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.778  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2dd5f96, mStationCount=0, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.778  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e5e7', mHESSID=0, mBSSID=a0ed6dc1e5ea, mStationCount=0, mChannelUtilization=180, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.779  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e50f', mHESSID=0, mBSSID=a0ed6dc1e512, mStationCount=0, mChannelUtilization=148, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.779  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='Venom', mHESSID=0, mBSSID=a4cfd241fc08, mStationCount=0, mChannelUtilization=130, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.779  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice 59a0e5', mHESSID=0, mBSSID=a4cfd259a0e8, mStationCount=0, mChannelUtilization=203, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.780  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd241fc0c, mStationCount=0, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.780  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd259a0ec, mStationCount=0, mChannelUtilization=66, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.780  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice 59a0e5', mHESSID=0, mBSSID=a4cfd259a0e9, mStationCount=1, mChannelUtilization=66, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.781  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='optimum', mHESSID=0, mBSSID=eeabffddde, mStationCount=0, mChannelUtilization=2, mCapacity=23437, mAnt=FreePublic, mInternet=true, mVenueGroup=null, mVenueType=null, mHSRelease=R2, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.781  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum e16749', mHESSID=0, mBSSID=5c53c3e1674c, mStationCount=0, mChannelUtilization=161, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.782  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 3e9e71', mHESSID=0, mBSSID=944e5b3e9e74, mStationCount=1, mChannelUtilization=107, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:07.783  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 3e9e71', mHESSID=0, mBSSID=944e5b3e9e75, mStationCount=0, mChannelUtilization=55, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:08.438 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:08.438 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:08.517  1344  4673 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@e280310 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:08.526 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:08.528 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:08.528 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:09.185  3800  3800 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+09-17 17:25:10.176   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:10.176   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/MainCore.cpp:1550: Failed to get TransState, rc 9
+09-17 17:25:10.176   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:10.176   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:11.858 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:11.858 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:11.916  1344  4122 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@a5e122f attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:11.917 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:11.918 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:11.918 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:15.736 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:15.736 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:15.792  1344  4102 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@1d4871a attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:15.793 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:15.793 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:15.794 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:17.860 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: true
+09-17 17:25:17.861 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+09-17 17:25:17.866  1344  1362 W ActivityManager: Bad activity token: android.os.BinderProxy@c3a24b
+09-17 17:25:17.866  1344  1362 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1238)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9422)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2343)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:17.866  1344  1362 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:17.870  1344  3538 W ActivityManager: Bad activity token: android.os.BinderProxy@c3a24b
+09-17 17:25:17.870  1344  3538 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9080)
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2415)
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:17.870  1344  3538 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:17.885  1344  4122 W ActivityManager: Bad activity token: android.os.BinderProxy@c3a24b
+09-17 17:25:17.885  1344  4122 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:17.885  1344  4122 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:17.886  1344  3520 W ActivityManager: Bad activity token: android.os.BinderProxy@c3a24b
+09-17 17:25:17.886  1344  3520 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:17.886  1344  3520 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:19.416  1344  4742 W ActivityManager: Bad activity token: android.os.BinderProxy@fc12428
+09-17 17:25:19.416  1344  4742 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1238)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9422)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2343)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:19.416  1344  4742 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:19.419  1344  1362 W ActivityManager: Bad activity token: android.os.BinderProxy@fc12428
+09-17 17:25:19.419  1344  1362 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9080)
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2415)
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:19.419  1344  1362 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:19.454  1344  4122 W ActivityManager: Bad activity token: android.os.BinderProxy@fc12428
+09-17 17:25:19.454  1344  4122 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:19.454  1344  4122 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:19.455  1344  3520 W ActivityManager: Bad activity token: android.os.BinderProxy@fc12428
+09-17 17:25:19.455  1344  3520 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:19.455  1344  3520 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:20.186   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:20.187   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/MainCore.cpp:1550: Failed to get TransState, rc 9
+09-17 17:25:20.187   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:20.187   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:20.313 21185 28955 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1271 android.content.ContextWrapper.bindService:604 com.sonyericsson.crashmonitor.MiscTaAdapter.open:90 com.sonyericsson.crashmonitor.service.CrashMonitorService.onInit:127 com.sonyericsson.crashmonitor.service.CrashMonitorService.onHandleIntent:192 
+09-17 17:25:20.331 16069 16106 W System.err: java.io.FileNotFoundException: No such storage volume
+09-17 17:25:20.331 16069 16106 W System.err: 	at android.os.storage.StorageManager.getVolumePath(StorageManager.java:1152)
+09-17 17:25:20.331 16069 16106 W System.err: 	at com.sonymobile.storagechecker.utils.StorageDeviceHelper.getSdCardMountPoint(StorageDeviceHelper.java:71)
+09-17 17:25:20.332 16069 16106 W System.err: 	at com.sonymobile.storagechecker.utils.StorageDeviceHelper.getExternalStorageId(StorageDeviceHelper.java:154)
+09-17 17:25:20.332 16069 16106 W System.err: 	at com.sonymobile.storagechecker.utils.StorageDeviceHelper.hasBackupCard(StorageDeviceHelper.java:172)
+09-17 17:25:20.332 16069 16106 W System.err: 	at com.sonymobile.storagechecker.controller.DeviceStorageService.checkMemoryInner(DeviceStorageService.java:246)
+09-17 17:25:20.332 16069 16106 W System.err: 	at com.sonymobile.storagechecker.controller.DeviceStorageService.access$000(DeviceStorageService.java:37)
+09-17 17:25:20.332 16069 16106 W System.err: 	at com.sonymobile.storagechecker.controller.DeviceStorageService$1.doInBackground(DeviceStorageService.java:189)
+09-17 17:25:20.338 16069 16106 W System.err: 	at com.sonymobile.storagechecker.controller.DeviceStorageService$1.doInBackground(DeviceStorageService.java:186)
+09-17 17:25:20.338 16069 16106 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+09-17 17:25:20.338 16069 16106 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+09-17 17:25:20.339 16069 16106 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)
+09-17 17:25:20.339 16069 16106 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-17 17:25:20.339 16069 16106 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-17 17:25:20.340 16069 16106 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+09-17 17:25:24.485  1344  4108 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@20a5040 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:24.486 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:24.487 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: false
+09-17 17:25:27.485  1344  3166 D WifiStateMachine: starting scan for "DIRECT-27-LM-G850-PdaNet"-WPA_PSK with 5745
+09-17 17:25:27.759  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c754cb', mHESSID=0, mBSSID=a4cfd2c754cf, mStationCount=3, mChannelUtilization=75, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.760  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c754d2, mStationCount=0, mChannelUtilization=75, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.760  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1bf3f', mHESSID=0, mBSSID=a4cfd2c1bf43, mStationCount=2, mChannelUtilization=74, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.760  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='StudioK', mHESSID=0, mBSSID=a4cfd2c670c3, mStationCount=4, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.761  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c670ce, mStationCount=0, mChannelUtilization=40, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.761  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c754cb', mHESSID=0, mBSSID=a4cfd2c754ce, mStationCount=0, mChannelUtilization=176, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.761  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1bf3f', mHESSID=0, mBSSID=a4cfd2c1bf42, mStationCount=0, mChannelUtilization=160, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.762  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='StudioK', mHESSID=0, mBSSID=a4cfd2c670c2, mStationCount=0, mChannelUtilization=146, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.762  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 21948f', mHESSID=0, mBSSID=5c53c3219492, mStationCount=0, mChannelUtilization=182, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.762  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e5e7', mHESSID=0, mBSSID=a0ed6dc1e5eb, mStationCount=1, mChannelUtilization=82, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.763  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e50f', mHESSID=0, mBSSID=a0ed6dc1e513, mStationCount=1, mChannelUtilization=68, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.763  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a2ed6dc1e51e, mStationCount=0, mChannelUtilization=68, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.763  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='Venom', mHESSID=0, mBSSID=a4cfd241fc09, mStationCount=4, mChannelUtilization=44, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.765  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice dd5f87', mHESSID=0, mBSSID=a4cfd2dd5f8a, mStationCount=0, mChannelUtilization=148, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.766  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=5e53c321949e, mStationCount=0, mChannelUtilization=54, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.766  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 21948f', mHESSID=0, mBSSID=5c53c3219493, mStationCount=0, mChannelUtilization=50, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.766  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum a679a1', mHESSID=0, mBSSID=944e5ba679a4, mStationCount=0, mChannelUtilization=203, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.767  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='3HWIFI', mHESSID=0, mBSSID=a4cfd2b5d7be, mStationCount=0, mChannelUtilization=155, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.767  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2c1bf4e, mStationCount=0, mChannelUtilization=74, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a2ed6dc1e5f6, mStationCount=0, mChannelUtilization=82, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice dd5f87', mHESSID=0, mBSSID=a4cfd2dd5f8b, mStationCount=3, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd2dd5f96, mStationCount=0, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.768  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e5e7', mHESSID=0, mBSSID=a0ed6dc1e5ea, mStationCount=0, mChannelUtilization=180, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum c1e50f', mHESSID=0, mBSSID=a0ed6dc1e512, mStationCount=0, mChannelUtilization=148, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='Venom', mHESSID=0, mBSSID=a4cfd241fc08, mStationCount=0, mChannelUtilization=130, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice 59a0e5', mHESSID=0, mBSSID=a4cfd259a0e8, mStationCount=0, mChannelUtilization=203, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.769  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd241fc0c, mStationCount=0, mChannelUtilization=44, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.770  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='', mHESSID=0, mBSSID=a6cfd259a0ec, mStationCount=0, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.770  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyAltice 59a0e5', mHESSID=0, mBSSID=a4cfd259a0e9, mStationCount=1, mChannelUtilization=57, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.771  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='optimum', mHESSID=0, mBSSID=eeabffddde, mStationCount=0, mChannelUtilization=2, mCapacity=23437, mAnt=FreePublic, mInternet=true, mVenueGroup=null, mVenueType=null, mHSRelease=R2, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.771  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum e16749', mHESSID=0, mBSSID=5c53c3e1674c, mStationCount=0, mChannelUtilization=161, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.771  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 3e9e71', mHESSID=0, mBSSID=944e5b3e9e74, mStationCount=1, mChannelUtilization=107, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:27.772  1344  3166 D HS20    : HSNwk: 'NetworkInfo{mSSID='MyOptimum 3e9e71', mHESSID=0, mBSSID=944e5b3e9e75, mStationCount=0, mChannelUtilization=55, mCapacity=0, mAnt=Private, mInternet=false, mVenueGroup=null, mVenueType=null, mHSRelease=null, mAnqpDomainID=0, mAnqpOICount=0, mRoamingConsortiums=null}
+09-17 17:25:28.085  1344  3520 W ActivityManager: Bad activity token: android.os.BinderProxy@457db79
+09-17 17:25:28.085  1344  3520 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1238)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9422)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2343)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.085  1344  3520 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.088  1344  4102 W ActivityManager: Bad activity token: android.os.BinderProxy@457db79
+09-17 17:25:28.088  1344  4102 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9080)
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2415)
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.088  1344  4102 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.090  1344  4142 W ActivityManager: Bad activity token: android.os.BinderProxy@6dd80be
+09-17 17:25:28.090  1344  4142 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1238)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:9422)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2343)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.090  1344  4142 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.092  1344  3538 W ActivityManager: Bad activity token: android.os.BinderProxy@6dd80be
+09-17 17:25:28.092  1344  3538 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9080)
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2415)
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.092  1344  3538 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.098  1344  4921 W ActivityManager: Bad activity token: android.os.BinderProxy@6dd80be
+09-17 17:25:28.098  1344  4921 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.098  1344  4921 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.099  1344  3199 W ActivityManager: Bad activity token: android.os.BinderProxy@6dd80be
+09-17 17:25:28.099  1344  3199 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.099  1344  3199 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.102  1344  3484 W ActivityManager: Bad activity token: android.os.BinderProxy@457db79
+09-17 17:25:28.102  1344  3484 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.102  1344  3484 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:28.102  1344  4108 W ActivityManager: Bad activity token: android.os.BinderProxy@457db79
+09-17 17:25:28.102  1344  4108 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:441)
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1233)
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11635)
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1739)
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2593)
+09-17 17:25:28.102  1344  4108 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+09-17 17:25:30.196   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:30.196   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/MainCore.cpp:1550: Failed to get TransState, rc 9
+09-17 17:25:30.196   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:30.196   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:31.742  1344  3520 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@8f1b635 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:31.746 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:31.748 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: false
+09-17 17:25:34.451  1344  4742 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@399e758 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:35.371  1344  3484 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@eb15917 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:35.383 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:35.383 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: false
+09-17 17:25:37.691  1344  4102 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@281d688 attribute=null, token = android.os.BinderProxy@478415f
+09-17 17:25:37.694 28706 28706 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 28706
+09-17 17:25:37.695 28706 28706 D cr_Ime  : [InputMethodManagerWrapper.java:59] isActive: false
+09-17 17:25:39.664 28706 28706 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: FATAL EXCEPTION: main
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: Process: com.wordnet.dic.synonym, PID: 28706
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.wordnet.dic.synonym.data.BookmarkHelper.setInsertBookmarkData(int, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at com.wordnet.dic.synonym.DicSearch_Synonym_Activity$2$1.onClick(DicSearch_Synonym_Activity.java:1111)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:163)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:234)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5526)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+09-17 17:25:39.664 28706 28706 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+09-17 17:25:39.667  1344  3199 D ActivityManager: New dropbox entry: com.wordnet.dic.synonym, data_app_crash, c8123073-c646-49ef-b85d-5f7499f5c0ea
+09-17 17:25:39.668  1344  3199 W ActivityManager:   Force finishing activity com.wordnet.dic.synonym/.DicSynonym
+09-17 17:25:39.738  1344 26321 I OpenGLRenderer: Initialized EGL, version 1.4
+09-17 17:25:39.772  4696 29027 I DropBoxUtil: (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+09-17 17:25:39.793 21185 29028 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1271 android.content.ContextWrapper.bindService:604 com.sonyericsson.crashmonitor.MiscTaAdapter.open:90 com.sonyericsson.crashmonitor.service.CrashMonitorService.onInit:127 com.sonyericsson.crashmonitor.service.CrashMonitorService.onHandleIntent:192 
+09-17 17:25:39.824  1344  1354 I art     : Background partial concurrent mark sweep GC freed 38251(3MB) AllocSpace objects, 20(996KB) LOS objects, 33% free, 26MB/40MB, paused 1.505ms total 134.186ms
+09-17 17:25:40.203  1344  1377 W ActivityManager: Activity pause timeout for ActivityRecord{b11e34c u0 com.wordnet.dic.synonym/.DicSynonym t50 f}
+09-17 17:25:40.205   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:40.205   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/MainCore.cpp:1550: Failed to get TransState, rc 9
+09-17 17:25:40.205   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:40.205   834   834 I Gobi    : vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:2500: GetTransState() EBADF
+09-17 17:25:40.337  4075  4075 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@e999842 time:19384122
+09-17 17:25:40.344  3879  4741 D renderlib: nfd:0x9edc0000, bgfd:0x0
+09-17 17:25:40.345  3879  4741 I renderlib: reset flag
+09-17 17:25:40.376  3879  4741 D renderer: remove bg texture
+09-17 17:25:40.376  3879  4741 D renderer: noise texture: 1080, 1920, 0x9edc0000
+09-17 17:25:40.484  1344  1398 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{604ac7a u0 com.sonyericsson.home/com.sonymobile.home.HomeActivity t24} time:19384269
+09-17 17:25:41.371 28706 28706 I Process : Sending signal. PID: 28706 SIG: 9
+09-17 17:25:41.378  1344 26321 D OpenGLRenderer: endAllActiveAnimators on 0x9c917380 (RippleDrawable) with handle 0x939fc130
+09-17 17:25:41.445  1344  4157 I WindowState: WIN DEATH: Window{83ae446 u0 com.wordnet.dic.synonym/com.wordnet.dic.synonym.DicSynonym}
+09-17 17:25:41.446  1344  4142 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=52, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@620b783)
+09-17 17:25:41.447  1344  3179 D ConnectivityService: releasing NetworkRequest NetworkRequest [ id=52, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-17 17:25:41.448  1344  3179 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=52, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-17 17:25:41.448  1344  4108 D GraphicsStats: Buffer count: 4
+09-17 17:25:41.448  1344  4108 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=53, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@62a3d00)
+09-17 17:25:41.450  1344  3179 D ConnectivityService: releasing NetworkRequest NetworkRequest [ id=53, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-17 17:25:41.450  1344  3179 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=53, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+09-17 17:25:41.451  1344  3538 I WindowState: WIN DEATH: Window{998f7ac u0 com.wordnet.dic.synonym/com.wordnet.dic.synonym.DicSynonym}
+09-17 17:25:41.485  1344  4142 I ActivityManager: Process com.wordnet.dic.synonym (pid 28706) has died
+09-17 17:25:41.571  1344  1398 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0

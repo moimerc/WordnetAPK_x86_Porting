@@ -1,0 +1,3 @@
+[SQLiteDatabase.loadLibs] called
+[SQLiteDatabase.loadLibs] called
+[SQLiteDatabase.openOrCreateDatabase] path=/storage/emulated/0/wordnet/.dicPyojaeEnc20140812.db hasPassword=true

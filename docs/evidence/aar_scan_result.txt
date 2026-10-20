@@ -1,0 +1,173 @@
+
+[FILE] android-database-sqlcipher-3.3.1-1.aar  (7,419,597 bytes)
+  [armeabi] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [armeabi-v7a] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [x86] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+
+[FILE] android-database-sqlcipher-3.3.1-2.aar  (7,311,413 bytes)
+  [armeabi] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [armeabi-v7a] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [x86] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+
+[FILE] android-database-sqlcipher-3.3.1.aar  (7,419,553 bytes)
+  [armeabi] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [armeabi-v7a] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [x86] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+
+[FILE] android-database-sqlcipher-3.4.0.aar  (7,507,772 bytes)
+  [armeabi] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [armeabi-v7a] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+  [x86] 3개 .so  ← 🎯 타겟 3/3
+    ★ libdatabase_sqlcipher.so
+    ★ libsqlcipher_android.so
+    ★ libstlport_shared.so
+
+[FILE] android-database-sqlcipher-3.5.0.aar  (3,014,894 bytes)
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.1.aar  (3,014,902 bytes)
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.2.aar  (2,673,011 bytes)
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.3.aar  (2,672,595 bytes)
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.4.aar  (2,677,739 bytes)
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.5.aar  (7,062,197 bytes)
+  [arm64-v8a] 1개 .so
+      libsqlcipher.so
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+  [x86_64] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.6.aar  (7,063,388 bytes)
+  [arm64-v8a] 1개 .so
+      libsqlcipher.so
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+  [x86_64] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.7.aar  (7,064,486 bytes)
+  [arm64-v8a] 1개 .so
+      libsqlcipher.so
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+  [x86_64] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.8.aar  (7,788,679 bytes)
+  [arm64-v8a] 1개 .so
+      libsqlcipher.so
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+  [x86_64] 1개 .so
+      libsqlcipher.so
+
+[FILE] android-database-sqlcipher-3.5.9.aar  (7,788,596 bytes)
+  [arm64-v8a] 1개 .so
+      libsqlcipher.so
+  [armeabi] 1개 .so
+      libsqlcipher.so
+  [armeabi-v7a] 1개 .so
+      libsqlcipher.so
+  [x86] 1개 .so
+      libsqlcipher.so
+  [x86_64] 1개 .so
+      libsqlcipher.so
+
+================================================================================
+
+[요약] x86/x86_64 아키텍처에 타겟 .so 파일이 있는 AAR:
+  ✅ android-database-sqlcipher-3.3.1-1.aar  [x86]
+       발견: libsqlcipher_android.so, libdatabase_sqlcipher.so, libstlport_shared.so
+  ✅ android-database-sqlcipher-3.3.1-2.aar  [x86]
+       발견: libsqlcipher_android.so, libdatabase_sqlcipher.so, libstlport_shared.so
+  ✅ android-database-sqlcipher-3.3.1.aar  [x86]
+       발견: libsqlcipher_android.so, libdatabase_sqlcipher.so, libstlport_shared.so
+  ✅ android-database-sqlcipher-3.4.0.aar  [x86]
+       발견: libsqlcipher_android.so, libdatabase_sqlcipher.so, libstlport_shared.so
+
+  총 4개의 AAR이 x86을 지원합니다.
+
+  [다음 단계]
+  가장 높은 버전의 AAR을 선택하여 jni/x86 폴더를 추출하세요.

@@ -1,0 +1,32 @@
+
+예상했던 대로 앱이 매우 허술하게 만들어져 있어서, 데이터베이스를 여는 복호화 비밀 키가 코드 내에 평문으로 고스란히 박혀 있습니다.
+
+확인된 핵심 키와 정보:
+
+* **SQLCipher 비밀 키 (`DBPW`)**: `s3KkssFmsdksemfhdl@emr7oqkfwkd!lek!gozldgksmst9oRlsm5sskrke0lwufk1`
+* **데이터베이스 파일 경로 구조**: SD카드(또는 에뮬레이터 저장소)의 특정 폴더 내에 `.dicPyojaeEnc20140812.db` 파일로 존재합니다.
+
+이로써 에뮬레이터 구동 시도가 막히더라도, 원본 데이터와 해독 키를 완전히 확보했기 때문에 언제든 PC에서 Python(sqlcipher3 등)을 이용해 44MB 데이터베이스를 자유롭게 덤프하고 활용할 수 있는 보험이 확실하게 마련되었습니다.
+
+이제 에뮬레이터 구동을 계속 이어나가기 위해, 네이티브 라이브러리(`libdatabase_sqlcipher.so` 등)가 에뮬레이터 환경에서 충돌하지 않도록 다음 단계(예: 아키텍처 라이브러리 패치 또는 우회 로직 점검)로 넘어가시겠습니까?
+
+
+PRAGMA key = 's3KkssFmsdksemfhdl@emr7oqkfwkd!lek!gozldgksmst9oRlsm5sskrke0lwufk1';
+
+papa@leave3463
+
+
+adb shell su -c "cp /data/data/com.wordnet.dic.synonym/files/plaintext_final.db /data/local/tmp/"
+adb pull /data/local/tmp/plaintext_final.db
+
+
+
+| 방법 | 난이도 | 성공 가능성 | 설명 |
+
+|------|--------|-------------|------|
+
+| **A. DB만 복호화해서 PC에서 쓰기** | 낮음 | 매우 높음 | 가장 확실하고 빠름. 원본 GUI는 포기 |
+
+| **B. 기존 APK를 패치해서 SQLCipher 제거** | 중간 | 중~높음 | LDPlayer에서 원본과 비슷하게 돌리고 싶을 때 현실적 |
+
+| **C. 디컴파일된 코드로 앱을 완전히 새로 작성** | 높음 | 높음 | 가능하지만 시간이 더 많이 듦 |

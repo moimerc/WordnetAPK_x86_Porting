@@ -1,0 +1,9 @@
+[MODULES_COUNT] 128
+[MODULE] libimg_utils.so | /system/lib/libimg_utils.so | base=0xb5e07000 size=65536
+--- [3초 후 모듈 재덤프] ---
+[MODULES_COUNT] 140
+[MODULE] libimg_utils.so | /system/lib/libimg_utils.so | base=0xb5e07000 size=65536
+[MODULE] base.odex | /data/app/com.wordnet.dic.synonym-1/oat/arm/base.odex | base=0x9fd3b000 size=3149824
+[MODULE] libstlport_shared.so | /data/app/com.wordnet.dic.synonym-1/lib/arm/libstlport_shared.so | base=0x9ce1c000 size=430080
+[MODULE] libsqlcipher_android.so | /data/app/com.wordnet.dic.synonym-1/lib/arm/libsqlcipher_android.so | base=0x9cbeb000 size=2297856
+[MODULE] libdatabase_sqlcipher.so | /data/app/com.wordnet.dic.synonym-1/lib/arm/libdatabase_sqlcipher.so | base=0x9cbbe000 size=184320

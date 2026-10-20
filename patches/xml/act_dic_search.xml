@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/searchbar_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_vertical" android:id="@id/btnBackward" android:layout_width="wrap_content" android:layout_height="30.0dp" />
+        <EditText android:layout_gravity="center_vertical" android:id="@id/autoCompleteBox" android:background="@drawable/searchbar_01" android:paddingLeft="12.0dp" android:textSize="22.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="검색할 단어를 입력하세요." android:singleLine="true" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/btnCancel" android:background="@drawable/searchbar_02" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/btnForward" android:layout_width="wrap_content" android:layout_height="30.0dp" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/searchView" android:background="@drawable/searchview_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@id/suggestListView" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/transparent" android:divider="@color/searchList_line_color" android:dividerHeight="1.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/resultView" android:background="@drawable/searchview_bg" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/btnDictionary" android:background="@drawable/select_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:layout_gravity="center_vertical" android:id="@id/btnSynonym" android:background="@drawable/btn_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="유의어" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/btnAntonym" android:background="@drawable/btn_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="반의어" />
+            </LinearLayout>
+            <RelativeLayout android:padding="3.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:minHeight="70.0dp">
+                <TextView android:textSize="24.0dp" android:textColor="@color/searchList_WordGrade" android:id="@id/detail_WordGrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="36.0dp" android:textStyle="bold" android:textColor="@color/searchList_PyojaeName" android:id="@id/detail_PyojaeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/detail_WordGrade" />
+                <TextView android:textSize="36.0dp" android:textColor="@color/searchList_PyojaeNameEtc" android:id="@id/detail_PyojaeNameEtc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/detail_PyojaeName" />
+                <TextView android:textSize="24.0dp" android:textColor="@color/searchList_WordClass" android:id="@id/detail_WordClass" android:paddingTop="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/detail_PyojaeNameEtc" />
+                <Button android:id="@id/btnAddBookmark" android:background="@drawable/btn_plus" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:minHeight="34.0dp">
+                <TextView android:textSize="22.0dp" android:textColor="@color/searchList_Mean" android:id="@id/detail_Mean" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <WebView android:id="@id/webViewResult" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp">
+                <TextView android:textSize="14.0dp" android:textColor="@color/searchList_WordGrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="***" />
+                <TextView android:textSize="16.0dp" android:textColor="@color/searchList_PyojaeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 1등급, " />
+                <TextView android:textSize="14.0dp" android:textColor="@color/searchList_WordGrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="**" />
+                <TextView android:textSize="16.0dp" android:textColor="@color/searchList_PyojaeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 2등급, " />
+                <TextView android:textSize="14.0dp" android:textColor="@color/searchList_WordGrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" />
+                <TextView android:textSize="16.0dp" android:textColor="@color/searchList_PyojaeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 3등급" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
