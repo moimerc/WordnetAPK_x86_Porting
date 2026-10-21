@@ -1,4 +1,4 @@
-# Legacy Android Dictionary: x86 Porting & Reverse Engineering Write-up
+# Android APK Reverse Engineering: Legacy Dictionary x86 Porting Write-up
 
 ## Overview
 A reverse engineering and binary porting case study for an abandoned 2014 Korean Synonym Dictionary Android application (`com.wordnet.dic.synonym`, originally targeting Android 2.2 Froyo).
